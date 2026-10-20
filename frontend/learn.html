@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let myAge = 17;
+      const myName = "Leyla";
+      const isStudent = true;
+      let city = "Taraz";
+      city = "Almaty";
+
+      console.log(myAge, myName, isStudent, city);
+
+      //   сан
+
+      let price = 1200;
+      const a = 3;
+      console.log(price * a);
+
+      const c = 17;
+      const b = 5;
+      console.log(c % b);
+
+      const y = 17;
+      const u = 5;
+      console.log(y / u);
+
+      let age = 16;
+      let d = age >= 18;
+      console.log(d);
+      age++;
+      console.log(age);
+
+      const n = 10 === "10";
+      console.log(n);
+      const m = 10 === 10;
+      console.log(m);
+
+      let lives = 3;
+      lives++;
+      console.log(lives);
+      lives--;
+      console.log(lives);
+
+      let money = 100;
+      money += 50;
+      money -= 30;
+      console.log(money);
+
+      let x = 5;
+      x *= 10;
+      x /= 2;
+      console.log(x);
+
+      //   if else
+
+      const Age = 12;
+      if (Age < 18) {
+        console.log("Камелет жаска толмаган");
+      } else {
+        console.log("Ересек");
+      }
+
+      const score = 85;
+      if (score >= 90) {
+        console.log("Ote jaksy");
+      } else if (score >= 70) {
+        console.log("Jaksy");
+      } else if (score >= 50) {
+        console.log("Kanagatty");
+      } else {
+        console.log("Dayndalu kerek");
+      }
+
+      let agee = 19;
+      let hasTiket = true;
+
+      if (agee >= 18 && hasTiket === true) {
+        console.log("You can get");
+      } else {
+        console.log("You can not get");
+      }
+
+      const isStudentt = "work";
+
+      if (
+        isStudentt === "school" ||
+        isStudentt === "university" ||
+        isStudentt === "collage"
+      ) {
+        console.log("Is Student");
+      } else {
+        console.log("Isn't Student");
+      }
+
+      //   цикл for
+
+      for (let i = 1; i <= 5; i++) {
+        console.log(i);
+      }
+
+      for (let i = 1; i <= 20; i++) {
+        if (i % 3 === 0 && i % 2 !== 0) {
+          console.log(i);
+        }
+      }
+
+      sum = 0;
+      for (let i = 1; i <= 100; i++) {
+        console.log((sum = sum + i));
+      }
+
+      // Function
+
+      // function hello(name) {
+      //   console.log("hello" + " " + name);
+      // }
+
+      // Hello("Leyla");
+      // Hello("Kundyz");
+
+      function add(q, w) {
+        console.log(q + w);
+      }
+      add(5, 3);
+
+      function add(q, w) {
+        return q + w;
+      }
+      const result = add(5, 3);
+      console.log(result);
+
+      function add(a, b) {
+        return a + b;
+      }
+
+      console.log(add(2, 3));
+      console.log(add(10, 20));
+
+      //   function multiply(a, b) {
+      //     return a * b;
+      //   }
+      const multiply = (a, b) => {
+        return a * b;
+      };
+
+      console.log(multiply(4, 5));
+
+      //   Final
+
+      function add(a, b) {
+        return a + b;
+      }
+
+      console.log(add(5, 3));
+      console.log(add(10, 20));
+
+      function checkAge(age) {
+        if (age >= 18) {
+          return "Ересек";
+        } else {
+          return "Кәмелетке толмаған";
+        }
+      }
+
+      console.log(checkAge(20));
+      console.log(checkAge(15));
+
+      const multiplyy = (a, b) => {
+        return a * b;
+      };
+
+      console.log(multiplyy(4, 5));
+    </script>
+  </body>
+</html>
